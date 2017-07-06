@@ -10,10 +10,14 @@
   font-family: regular;
   src: url("../fonts/Chivo-Regular.ttf"); }
 
-.homepage-background {
-  height: 725px;
+body {
+  background-color: black; }
+
+.homepage {
+  height: 550px;
   width: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
   background-image: url("../images/background.png"); }
 
 .logo__text, .navigation__list, .navigation__social-list {
@@ -24,12 +28,13 @@
   color: #9d9f9e; }
 
 .title__header {
-  margin-top: 250px;
   font-family: shadow;
+  margin-top: 100px;
   color: white;
   text-align: center;
-  letter-spacing: 50px;
-  font-size: 50px;
+  width: auto;
+  letter-spacing: 10px;
+  font-size: 30px;
   font-weight: 100;
   font-stretch: ultra-condensed;
   text-transform: uppercase; }
@@ -58,16 +63,144 @@
 .navigation__social-listIcons {
   display: inline-block; }
 
-.homepage-button__buy, .homepage-button__watch {
+.homepage-button-container {
+  margin: 0 auto;
+  margin-top: 15px; }
+
+.homepage-button {
   border: 2px white solid;
   border-radius: 0;
   color: white;
   text-align: center;
   width: 100%;
-  margin-top: 25px;
   padding: 15px; }
 
-.homepage-button__buy-text, .homepage-button__watch-text {
+.homepage-button-2 {
+  margin-top: 15px; }
+
+.homepage-button__text {
   font-size: 12px;
   text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
   padding: 15px; }
+
+.sub-title {
+  text-align: center;
+  margin-top: 25px; }
+
+.sub-title__text {
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 100;
+  font-family: shadow;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-stretch: ultra-condensed; }
+
+iframe {
+  border: 2px solid grey;
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.video-container {
+  margin: 0 auto; }
+
+.video {
+  width: 325px;
+  height: auto;
+  display: inline-block; }
+
+.tumbnail {
+  margin-top: 30px;
+  width: 300px;
+  height: 185px; }
+
+.video__title {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px; }
+
+.video__title-text {
+  color: white;
+  font-size: 12px; }
+
+.video__spacer {
+  text-align: center;
+  margin: 10px;
+  letter-spacing: 6px; }
+
+.video__spacer-text {
+  color: grey; }
+
+.video__time {
+  text-align: center;
+  margin: 5px; }
+
+.video__time-text {
+  color: grey;
+  font-size: 14px; }
+
+.video__text {
+  padding-top: 15px;
+  text-align: center; }
+
+.video__text-style {
+  color: grey; }
+
+.video__button {
+  position: relative;
+  margin-top: 100px; }
+
+.video__button-left {
+  color: white; }
+
+.fa .fa-arrow-left {
+  color: white; }
+
+.video__button-right {
+  margin-left: 18px;
+  color: white; }
+
+.buy-bkg {
+  background-image: url("../images/buy-bkg-small.png");
+  border-color: red;
+  margin-top: 25px;
+  background-repeat: no-repeat;
+  width: auto;
+  color: white;
+  height: 400px; }
+
+.buy__title {
+  font-family: shadow;
+  color: white;
+  text-align: center;
+  letter-spacing: 0;
+  font-size: 50px;
+  font-weight: 100;
+  font-stretch: ultra-condensed;
+  text-transform: uppercase; }
+
+.buy__sub-title {
+  font-family: shadow;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 100; }
+
+.buy__sub-tagline {
+  font-family: shadow;
+  text-align: center; }
+
+.buy__button-shop {
+  border: 2px solid white;
+  padding: 10px;
+  width: 100%;
+  margin: 0 auto; }
+
+.buy__button-shop-text {
+  font-family: regular;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px; }
