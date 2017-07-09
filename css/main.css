@@ -73,15 +73,12 @@ body {
   display: inline-block; }
 
 .homepage-button__container {
-  margin: 0 auto;
-  margin-top: 15px; }
+  margin-left: auto;
+  text-align: center; }
 
 .homepage-button {
   border: 2px white solid;
-  border-radius: 0;
   color: white;
-  text-align: center;
-  width: 100%;
   padding: 15px; }
 
 .homepage-button-2 {
@@ -235,7 +232,10 @@ iframe {
   font-stretch: ultra-condensed; }
 
 .character-select__image {
-  margin-top: 25px; }
+  display: inline-block;
+  white-space: nowrap;
+  margin-top: 25px;
+  overflow: auto; }
 
 .character-select__info {
   margin-top: 15px; }
@@ -344,3 +344,7 @@ iframe {
 .news-hr {
   border: 1px solid grey;
   margin-top: -5px; }
+
+.horizontal-scroll {
+  overflow: auto;
+  white-space: nowrap; }
